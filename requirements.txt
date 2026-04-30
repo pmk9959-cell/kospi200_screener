@@ -1,0 +1,18 @@
+# --- Phase 1: 데이터 + 지표 ---
+pandas>=2.0
+numpy>=1.24,<2.0          # pandas-ta 호환성을 위해 1.x 고정
+pyarrow>=14               # parquet 캐시
+pykrx>=1.0.45             # KRX 가격/펀더멘털
+finance-datareader>=0.9   # 백업 가격 소스
+PyYAML>=6.0
+
+# --- Phase 2~ (미리 깔아두면 편함, 선택) ---
+# pandas-ta>=0.3.14b
+# vectorbt>=0.26
+# mplfinance>=0.12
+# OpenDartReader>=0.2.2
+# yfinance>=0.2.40
+# requests>=2.31
+# beautifulsoup4>=4.12
+# pdfplumber>=0.10
+# anthropic>=0.34          # Phase 5
